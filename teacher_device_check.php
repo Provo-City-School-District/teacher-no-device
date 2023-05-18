@@ -82,7 +82,7 @@ while ($row = mysqli_fetch_assoc($result)) {
 				
 					// Email content
 					$mail->setFrom('donotreply@provo.edu', 'teacher-no-device container');
-					$mail->addAddress('helpdesk.provo.edu', 'Teacher with no Device Report');
+					$mail->addAddress('helpdesk@provo.edu', 'Teacher with no Device Report');
 					$mail->Subject = 'New Teacher with no Device Found';
 					$mail->Body = $logDetails;
 				
