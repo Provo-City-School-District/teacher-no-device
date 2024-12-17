@@ -1,4 +1,5 @@
 <?php
+echo 'Starting Teacher Device Check script...';
 
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
